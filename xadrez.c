@@ -3,19 +3,19 @@
 int main() {
 //primeiro passo declaração de variaveis
     int populacao, turistico,populacao1, turistico1;
-    char carta[50],cidade[50],carta1[50],cidade1[50];
-    char estado,estado1;
+    char carta[2],cidade[20],carta1[2],cidade1[20];
+    char estado[2],estado1[2];
     float pib, area,pib1, area1;
 //coletando os dados da primeira carta
     printf("Vamos cadastrar os dados da carta1: \n");
     printf("digite o estado:Uma letra de 'A' a 'H': \n");
-    scanf("%s", &estado);
+    scanf("%s", estado);
 
     printf("digite o codigo da carta: A letra do estado seguida de um número de 01 a 04: \n");
-    scanf("%s", &carta);
+    scanf("%s", carta);
 
     printf("digite o nome da cidade: \n");
-    scanf("%s", &cidade);
+    scanf("%s", cidade);
     
     printf("digite a quantidade de habitantes: \n");
     scanf("%d", &populacao);
@@ -32,13 +32,13 @@ int main() {
 //coletando os dados da primeira carta
     printf("Vamos cadastrar os dados da carta 2: \n");
     printf("digite o estado:Uma letra de 'A' a 'H': \n");
-    scanf("%s", &estado1);
+    scanf("%s", estado1);
 
     printf("digite o codigo da carta: A letra do estado seguida de um número de 01 a 04: \n");
-    scanf("%s", &carta1);
+    scanf("%s", carta1);
 
     printf("digite o nome da cidade: \n");
-    scanf("%s", &cidade1);
+    scanf("%s", cidade1);
     
     printf("digite a quantidade de habitantes: \n");
     scanf("%d", &populacao1);
@@ -54,7 +54,7 @@ int main() {
 
 //imprimimdo os dados da carta 1
     printf("Carta 1:\n");
-    printf("Estado:%s\n",estado);
+    printf("Estado:%s\n", estado);
     printf("Código:%s\n",carta);
     printf("Nome da Cidade:%s\n",cidade);
     printf("População:%d\n",populacao);
