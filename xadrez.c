@@ -3,12 +3,12 @@
 int main() {
 //primeiro passo declaração de variaveis
     int populacao, turistico,Populacao1, Turistico1;
-    char carta[2],cidade[20],estado,Carta1[2],Cidade1[20],Estado1;
+    char carta[20],cidade[20],estado,Carta1[20],Cidade1[20],Estado1;
     float pib, area,Pib1, Area1;
 //coletando os dados da primeira carta
     printf("Vamos cadastrar os dados da carta1: \n");
     printf("digite o estado:Uma letra de 'A' a 'H': \n");
-    scanf("%c", estado);
+    scanf("%c",&estado);
 
     printf("digite o codigo da carta: A letra do estado seguida de um número de 01 a 04: \n");
     scanf("%s",carta);
@@ -31,7 +31,7 @@ int main() {
 //coletando os dados da primeira carta
     printf("Vamos cadastrar os dados da carta 2: \n");
     printf("digite o estado:Uma letra de 'A' a 'H': \n");
-    scanf("%c",Estado1);
+    scanf("%c",&Estado1);
 
     printf("digite o codigo da carta: A letra do estado seguida de um número de 01 a 04: \n");
     scanf("%s",Carta1);
@@ -62,7 +62,7 @@ int main() {
     printf("Número de Pontos Turísticos:%d\n",turistico);
 //imprimimdo os dados da carta 2
     printf("Estado:%c\n",Estado1);
-    printf("Código:%s\n",Carta);
+    printf("Código:%s\n",Carta1);
     printf("Nome da Cidade:%s\n",Cidade1);
     printf("População:%d\n",Populacao1);
     printf("Área:%f\n",Area1);
