@@ -9,35 +9,49 @@ int main() {
 //coletando os dados da primeira carta
     printf("Vamos cadastrar os dados da carta1: \n");
     printf("digite o estado:Uma letra de 'A' a 'H': \n");
-    scanf("%c",&estado);
+    scanf(" %c",&estado);
+
     printf("digite o codigo da carta: A letra do estado seguida de um número de 01 a 04: \n");
-    scanf("%s",carta);
+    scanf(" %s",carta);
+
     printf("digite o nome da cidade: \n");
-    scanf("%s",cidade);    
+    scanf(" %s",cidade);
+
     printf("digite a quantidade de habitantes: \n");
-    scanf("%d",&populacao);
+    scanf(" %d",&populacao);
+
     printf("digite a área da cidade em quilômetros quadrados: \n");
-    scanf("%f",&area);
+    scanf(" %f",&area);
+
     printf("digite o Produto Interno Bruto da cidade(pib): \n");
-    scanf("%f",&pib);
+    scanf(" %f",&pib);
+
     printf("digite a quantidade de pontos turísticos na cidade: \n");
-    scanf("%d",&turistico);
+    scanf(" %d",&turistico);
+
 //coletando os dados da primeira carta
     printf("Vamos cadastrar os dados da carta 2:\n");
     printf("digite o estado:Uma letra de 'A' a 'H':\n");
-    scanf("%c",&estado1);
+    scanf(" %c",&estado1);
+
     printf("digite o codigo da carta: A letra do estado seguida de um número de 01 a 04:\n");
-    scanf("%s",carta1);
+    scanf(" %s",carta1);
+
     printf("digite o nome da cidade:\n");
-    scanf("%s",cidade1);    
+    scanf(" %s",cidade1);   
+
     printf("digite a quantidade de habitantes:\n");
-    scanf("%d",&populacao1);
+    scanf(" %d",&populacao1);
+
     printf("digite a área da cidade em quilômetros quadrados:\n");
-    scanf("%f",&area1);
+    scanf(" %f",&area1);
+
     printf("digite o Produto Interno Bruto da cidade(pib):\n");
-    scanf("%f",&pib1);
+    scanf(" %f",&pib1);
+
     printf("digite a quantidade de pontos turísticos na cidade:\n");
-    scanf("%d",&turistico1);
+    scanf(" %d",&turistico1);
+    
 //imprimimdo os dados da carta 1
     printf("Carta 1:\n");
     printf("Estado:%c\n",estado);
