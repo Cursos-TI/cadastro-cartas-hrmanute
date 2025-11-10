@@ -58,8 +58,6 @@ int main() {
     pibcapita=(float)pib/populacao;
     pibcapita1=(float)pib1/populacao1;
 
-
-
     //imprimimdo os dados da carta 1
     printf("Carta 1:\n");
     printf("Estado:%c\n",estado);
